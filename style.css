@@ -1,0 +1,57 @@
+.root {
+    -fx-background-color: #FAF9FE;
+    -fx-padding: 20;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label-large {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3C096C;
+}
+
+.label-medium {
+    -fx-font-size: 18px;
+    -fx-text-fill: #5A189A;
+}
+
+.score-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #5A189A;
+}
+
+.cell {
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+    -fx-font-size: 36px;
+    -fx-alignment: center;
+    -fx-border-color: #9D4EDD;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 3, 0, 0, 1);
+}
+
+.cell:hover {
+    -fx-background-color: #F3E8FF;
+    -fx-cursor: hand;
+}
+
+.reset-button {
+    -fx-background-color: #7B2CBF;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20 8 20;
+}
+
+.glisten-app-bar {
+    -fx-background-color: #7B2CBF;
+}
+
+.glisten-app-bar .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
